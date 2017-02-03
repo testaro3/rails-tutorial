@@ -8,6 +8,10 @@
 </head>
 <body>
 
+  def show
+  @members = Member.all    <%# インスタンス変数に値を設定 %>
+end
+  
 <%= yield %>
 
 </body>
